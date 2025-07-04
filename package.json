@@ -1,0 +1,22 @@
+{
+  "name": "two_front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Building frontend...\" && mkdir -p build && cp -r two/src/frontend/* build/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@radix-ui/react-icons": "^1.3.2",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lodash": "^4.17.21",
+    "lucide-react": "^0.503.0",
+    "recharts": "^2.15.3",
+    "tailwind-merge": "^3.2.0"
+  }
+}
